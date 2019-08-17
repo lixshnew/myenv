@@ -1,11 +1,15 @@
 # myenv
 
 This is basic bash environment including the main configuration of my vim.
+
 It is used for setup a new Linux machine quickly.
 
+
 Pre-condition:
+
 * Network available
 * git installed
+* vim installed
 * ctags installed
 * screen installed
 
