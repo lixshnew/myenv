@@ -1,0 +1,32 @@
+termcapinfo xterm* ti@:te@
+startup_message off
+vbell off
+autodetach on
+altscreen on
+shelltitle "$ |"
+defscrollback 10000
+defutf8 on
+nonblock on
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rY}%n %t%{-}%+w %=%{..G} %H(%l) %{..Y} %Y/%m/%d %c:%s "
+
+#layout new
+#screen -t window0 1 /bin/bash -c 'cd /local/jsun32/'
+#screen -t window0
+#screen -t window1
+#screen -t window2
+#select window0
+#split -v
+#focus down
+#select window1
+#split
+#focus down
+#select window2
+#focus up
+#focus up
+
+#stuff "cd /local/hanbing/\012"
+#escape ""
+#bindkey ^ad detach

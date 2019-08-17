@@ -1,0 +1,5 @@
+export ls='ls --color'
+export la='ls -a'
+export ll='ls -l'
+
+export sc='systemctl'
