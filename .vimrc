@@ -23,6 +23,11 @@ set t_Co=256
 "lan mes en
 "let g:bufExplorerSplitRight=1        " Split right.
 
+
+se ts=4
+se expandtab
+se autoindent
+
 map <F8> :Tlist<CR>
 map <F9> :set tags=tags<CR>
 map <F10> :cs a cscope.out<CR>
