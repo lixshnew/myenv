@@ -11,6 +11,7 @@ Pre-condition:
 * git installed
 * vim installed
 * ctags installed
+* cscope installed
 * screen installed
 
 
