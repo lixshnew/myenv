@@ -1,5 +1,5 @@
-export ls='ls --color'
-export la='ls -a'
-export ll='ls -l'
+alias ls='ls --color'
+alias la='ls -a'
+alias ll='ls -l'
 
-export sc='systemctl'
+alias sc='systemctl'
