@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -r .alias .screenrc .vimrc .vim ~
+cp -r .alias .screenrc .vimrc .vim .fvwm .vnc ~
